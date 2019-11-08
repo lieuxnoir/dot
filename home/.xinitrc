@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/sh -e
 
-setroot -s "$HOME"/Pictures/Wallpapers/wallhaven-k91e37.jpg
+setroot -s "$HOME"/Pictures/wall/wallhaven-k91e37.jpg
 
-read -r CBRI < /sys/class/backlight/radeon_bl0/brightness
-bri "$CBRI"
+read -r cur < /sys/class/backlight/radeon_bl0/brightness
+bri "$cur"
 
 exec sowm
