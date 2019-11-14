@@ -12,3 +12,4 @@ export HISTSIZE=-1
 export LESSHISTFILE=-
 
 export NNN_OPENER=opn
+export PF_INFO="title os host kernel uptime pkgs memory palette"
