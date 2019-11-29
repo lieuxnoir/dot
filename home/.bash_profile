@@ -1,7 +1,9 @@
-# .bash_profile
+#
+# ~/.bash_profile
+#
 
 # Get the aliases and functions
-[ -f $HOME/.bashrc ] && . $HOME/.bashrc
+[[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # Paths
 export PATH+=:$HOME/.local/bin
