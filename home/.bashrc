@@ -9,10 +9,10 @@
 PS1='\W \$ '
 
 # Aliases
-alias batt='cat /sys/class/power_supply/BATT/capacity'
+alias batt='cat /sys/class/power_supply/BAT0/capacity'
 alias ls='ls --color=auto --group-directories-first'
 
 # Functions
 doas() {
-    su -c "$*"
+    su -c "$(printf ' %q' "$@")"
 }
