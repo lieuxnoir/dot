@@ -3,10 +3,10 @@
 
 # <file system> <dir> <type> <options> <dump> <pass>
 # /dev/sda2
-UUID=<UUID>    /        ext4     rw,relatime 0 1
+UUID=337853bd-e671-4ae3-a97f-df59ced0ce6b / ext4 rw,relatime 0 1
 
 # /dev/sda1
-UUID=<UUID>    /boot    vfat     rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 2
+UUID=901B-2550 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 2
 
 # /tmp
-tmpfs          /tmp     tmpfs    defaults,nosuid,nodev 0 0
+tmpfs /tmp tmpfs defaults,nosuid,nodev 0 0

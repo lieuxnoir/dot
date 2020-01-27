@@ -2,6 +2,9 @@
 #
 # ACPI event handler.
 
+export DISPLAY=:0
+export PATH=$PATH:/home/lieu/.local/bin
+
 case "$1" in
     button/micmute)
         amixer sset Capture toggle
@@ -12,7 +15,6 @@ case "$1" in
     ;;
 
     button/screenlock)
-        export DISPLAY=:0
         su -c slock lieu &
     ;;
 
@@ -25,11 +27,11 @@ case "$1" in
     ;;
 
     video/brightnessdown)
-        /home/lieu/.local/bin/bri 10 -
+        bri 10 -
     ;;
 
     video/brightnessup)
-        /home/lieu/.local/bin/bri 10 +
+        bri 10 +
     ;;
 
     *)

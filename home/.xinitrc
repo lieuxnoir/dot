@@ -1,5 +1,6 @@
 #!/bin/sh
 
-setroot -s "$HOME"/Pictures/wall/wallhaven-k91e37.jpg
+compton -b
+setroot -s ~/Pictures/wall/papers/wallhaven-k91e37.jpg
 
 exec sowm
