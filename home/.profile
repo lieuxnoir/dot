@@ -1,6 +1,6 @@
 # .profile
 
-# Get the aliases and functions
+# Aliases and functions
 export ENV=$HOME/.ashrc
 
 # Paths

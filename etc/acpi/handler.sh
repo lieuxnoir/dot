@@ -3,7 +3,7 @@
 # ACPI event handler.
 
 export DISPLAY=:0
-export PATH=$PATH:/home/lieu/.local/bin
+export PATH=$PATH:/home/mono/.local/bin
 
 case "$1" in
     button/micmute)
@@ -15,7 +15,7 @@ case "$1" in
     ;;
 
     button/screenlock)
-        su -c slock lieu &
+        su -c slock mono &
     ;;
 
     button/volumedown)
