@@ -4,8 +4,8 @@
 export ENV=~/.ashrc
 
 # Paths
-export PATH=$PATH:~/.local/bin
-# export KISS_PATH=$KISS_PATH:~/.local/var/db/kiss/red/lips
+export PATH=$PATH:~/.repos/bin/aries
+# export KISS_PATH=$KISS_PATH:
 
 # Build flags
 export CFLAGS="-march=native -O3 -pipe"
