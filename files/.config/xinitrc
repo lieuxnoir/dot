@@ -1,0 +1,4 @@
+#!/bin/sh
+# xwallpaper --zoom ~/Pictures/wall/papers/uGRFZEs.jpg
+# blr
+exec sowm

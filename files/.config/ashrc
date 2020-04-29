@@ -1,11 +1,8 @@
 # .ashrc
 
-# If not running interactively, don't do anything
+# Don't do anything if not running interactively.
 case $- in *i*) ;; *) return; esac
 
-# Prompt
-PS1='\W \$ '
-
-# Aliases
+# Aliases.
 alias bt='cat /sys/class/power_supply/BAT0/capacity'
 alias ls='ls --color=auto --group-directories-first'
